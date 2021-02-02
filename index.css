@@ -38,6 +38,7 @@ div.commonarea {
 :root {
     --grid-cols: 1;
     --grid-rows: 1;
+    --col: black;
 } 
 
 div.container {
@@ -54,8 +55,42 @@ div.container {
 }
 
 div#sliderArea {
-    margin: auto;
-    width: 50%; 
+    margin: 20px;
+    display: flex;
     justify-content: center;
 }
 
+.active {
+    background-color: var(--col);
+}
+
+.blackInn {
+    background-color: black;
+}
+ .greyInn {
+     background-color: grey;
+ }
+.red {
+    background-color: red;
+}
+.eraserInn {
+    background-color: #929e4e;
+}
+.resInn {
+    background-color:	#FFFFF0;
+}
+
+p {
+    text-align: center;
+    color: purple;
+    font-size: 20px;
+    padding: 15px;
+}
+
+output {
+    display: flex;
+    padding: 15px;
+    color: purple;
+    font-size: 20px;
+    align-items: center;
+}
